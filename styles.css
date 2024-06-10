@@ -1,0 +1,83 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#EFB0C9, #a2d2ff);
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#bff-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #a2d2ff;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+}
+
+#gift-img-happy:hover {
+    background-image: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHBlOGV0ZW94ODd4OHdsMXZtOWVkMmVlZm8xOW14NTgxZmc4MThweSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/doPrWYzSG1Vao/giphy.webp);
+}
+
+#gift-img-hot:hover {
+    background-image: url(https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnRkOWljemNvOHczNXo4NzlzM2lieTNnMWNidjlwZXJ4bWJxYTAxayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8DUxtTxFntY7lpJnzy/giphy.webp);
+}
+
+#gift-img-genius:hover {
+    background-image: url(https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMm4wMDVqeHV1bnlyNDg4YjAxdzNkN2hja3I3NXJsMWNibGh1N3YxYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/i5wNCqyMzY2Oc/200w.webp);
+}
+
+#gift-img-badass:hover {
+    background-image: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZG90ZGdydTlvYzlxdHhqcmJrcTIxYjlzZzB2MWFnZHR1MjNzcDMzNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l1J9uPMOQOqO8tfAQ/giphy.webp);
+}
+
+#gift-img-cheers:hover {
+    background-image: url("images/cheers.gif");
+}
